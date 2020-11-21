@@ -2,7 +2,7 @@
     
 global  GLCD_Setup, GLCD_Clear, GLCD_Test, LCD_delay_x4us, LCD_delay_ms
 extrn	myArray, delay
-extrn	Int_Setup
+extrn	;Int_Setup
 
 psect	udata_acs   ; named variables in access ram
 LCD_cnt_l:	ds 1   ; reserve 1 byte for variable LCD_cnt_l
